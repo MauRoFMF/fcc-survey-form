@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div id="survey-form">
+            <div id=group>
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter your Name" required >
+            </div>
+            <div id=group>
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter your Email" required >
+            </div>
+            <div id=group>
+                <label id="age-label" for="age">Age (Optional)</label>
+                <input type="number" name="age" placeholder="Enter your age" >
+            </div>
+            <div id="group">
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown" name="select">
+                    <option value="" disabled selected>Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full-Time-Learner">Full Time Learner</option>
+                    <option value="Full-Time-Job">Full Time Job"</option>
+                    <option value="Prefer-not-to-say">Prefer not to say"</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div id="group">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <input type="radio" id="definitely" name="recommend" value="definitely" checked>Definitely</input>
+                <input type="radio" id="maybe" name="recommend" value="maybe" checked>Maybe</input>
+                <input type="radio" id="not-sure" name="recommend" value="not-sure">Definitely</input>
+            </div>
+            <div id="group">
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select id="dropdown" name="select">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Chalenges">Chalenges</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open-source">Open source</option>
+                </select>
+            </div>
+            <div id="group">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <input type="checkbox" id="front-end-projects" name="front-end">Front-end Projects</input>
+                <input type="checkbox" id="Back-end-Projects" name="Back-end">Back-end Projects</input>
+                <input type="checkbox" id="Data-Visualization" name="Data Visualization">Data Visualization</input>
+                <input type="checkbox" id="Challenges" name="Challenges">Challenges</input>
+                <input type="checkbox" id="Open-Source" name="Open Source Community">Open Source Community</input>
+                <input type="checkbox" id="Gitter help rooms" name="Gitter help rooms">Gitter help rooms</input>
+                <input type="checkbox" id="Videos" name="Videos">Videos</input>
+                <input type="checkbox" id="City Meetups" name="City Meetups">City Meetups</input>
+                <input type="checkbox" id="Wiki" name="Wiki">Wiki</input>
+                <input type="checkbox" id="Forum" name="Forum">Forum</input>
+                <input type="checkbox" id="Additional Courses" name="Additional Courses">Additional Courses</input>
+            </div>
+            <div id="group">
+                <p>Any comments or suggestions?</p>
+                <input type="text" placeholder="Enter your comment here...">
+            </div>
+            <div id="group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
