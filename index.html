@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="container">
@@ -36,11 +37,11 @@
                     <option value="Other">Other</option>
                 </select>
             </div>
-            <div id="group">
+            <div id="group" class="radio">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
-                <input type="radio" id="definitely" name="recommend" value="definitely" checked>Definitely</input>
-                <input type="radio" id="maybe" name="recommend" value="maybe" checked>Maybe</input>
-                <input type="radio" id="not-sure" name="recommend" value="not-sure">Definitely</input>
+                <label><input type="radio" id="definitely" name="recommend" value="definitely" checked>Definitely</input></label>
+                <label><input type="radio" id="maybe" name="recommend" value="maybe" checked>Maybe</input></label>
+                <label><input type="radio" id="not-sure" name="recommend" value="not-sure">Definitely</input></label>
             </div>
             <div id="group">
                 <p>What is your favorite feature of freeCodeCamp?</p>
@@ -54,17 +55,17 @@
             </div>
             <div id="group">
                 <p>What would you like to see improved? (Check all that apply)</p>
-                <input type="checkbox" id="front-end-projects" name="front-end">Front-end Projects</input>
-                <input type="checkbox" id="Back-end-Projects" name="Back-end">Back-end Projects</input>
-                <input type="checkbox" id="Data-Visualization" name="Data Visualization">Data Visualization</input>
-                <input type="checkbox" id="Challenges" name="Challenges">Challenges</input>
-                <input type="checkbox" id="Open-Source" name="Open Source Community">Open Source Community</input>
-                <input type="checkbox" id="Gitter help rooms" name="Gitter help rooms">Gitter help rooms</input>
-                <input type="checkbox" id="Videos" name="Videos">Videos</input>
-                <input type="checkbox" id="City Meetups" name="City Meetups">City Meetups</input>
-                <input type="checkbox" id="Wiki" name="Wiki">Wiki</input>
-                <input type="checkbox" id="Forum" name="Forum">Forum</input>
-                <input type="checkbox" id="Additional Courses" name="Additional Courses">Additional Courses</input>
+                <label><input type="checkbox" id="front-end-projects" name="front-end">Front-end Projects</input></label>
+                <label><input type="checkbox" id="Back-end-Projects" name="Back-end">Back-end Projects</input></label>
+                <label><input type="checkbox" id="Data-Visualization" name="Data Visualization">Data Visualization</input></label>
+                <label><input type="checkbox" id="Challenges" name="Challenges">Challenges</input></label>
+                <label><input type="checkbox" id="Open-Source" name="Open Source Community">Open Source Community</input></label>
+                <label><input type="checkbox" id="Gitter help rooms" name="Gitter help rooms">Gitter help rooms</input></label>
+                <label><input type="checkbox" id="Videos" name="Videos">Videos</input></label>
+                <label><input type="checkbox" id="City Meetups" name="City Meetups">City Meetups</input></label>
+                <label><input type="checkbox" id="Wiki" name="Wiki">Wiki</input></label>
+                <label><input type="checkbox" id="Forum" name="Forum">Forum</input></label>
+                <label><input type="checkbox" id="Additional Courses" name="Additional Courses">Additional Courses</input></label>
             </div>
             <div id="group">
                 <p>Any comments or suggestions?</p>
